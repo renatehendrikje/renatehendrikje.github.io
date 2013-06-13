@@ -5,9 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
@@ -16,31 +15,14 @@
     <body>
 
         <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <h2 class="subtitle"><a href="/">Aspiring Frontend Developer</a></h2>
-            </div>
-     
-                {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Renate Kikkert<br />
-                  Aspiring Frontend Developer<br />
-                  <a href="mailto:renatekikkert@gmail.com">renatekikkert@gmail.com</a>
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/renatehendrikje/">github.com/renatehendrikje</a><br />
-                  <a href="http://twitter.com/renatehendrikje/">twitter.com/renatehendrikje</a><br />
-                </p>
-              </div>
-            </div>
+          <div class="header">
+            <h1><a href="/">Renate Kikkert</a></h1>
+            <h2><a href="/">Aspiring Frontend Developer</a></h2>
           </div>
-        </div> <!-- /container -->
+   
+              {{ content }}
 
+
+        </div> <!-- /container -->
     </body>
 </html>
