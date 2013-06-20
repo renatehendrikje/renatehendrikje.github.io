@@ -37,9 +37,6 @@ img {
 /*typography*/
 
 h1 {
-  font-size: 1.750em;
-  font-weight: 100;
-  letter-spacing: -1.5px;
   color: #32f580;
 }
 
@@ -55,10 +52,11 @@ h3 {
 }
 
 .header h1 a {
-  font-weight: 100;
-  font-size: 1.750em;
-  letter-spacing: -1.5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 2.500em;
   color: #32f580;
+  line-height: 100%;
 }
 
 .header h1 a:visited {
@@ -66,9 +64,11 @@ h3 {
 }
 
 .header h2 a {
-  font-weight: 100;
-  font-size: 1.500em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.700em;
   color: #07ce57;
+  line-height: 100%;
 }
 
 .header h2 a:visited {
@@ -79,6 +79,7 @@ h3 {
 
 .header {
   padding-left: 3%;
+  margin-bottom: 8%;
 }
 
 .internship {
@@ -87,6 +88,9 @@ h3 {
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
+}
+
+.columns {
   columns: 225px 2;
   -webkit-columns: 225px 2;
   -webkit-column-gap: 3em;
@@ -95,16 +99,162 @@ h3 {
 } 
 
 .internship h2 {
-  column-span: all; /* W3C */
-  -webkit-column-span: all; /* Safari & Chrome */
-  -moz-column-span: all; /* Firefox */
-  -ms-column-span: all; /* Internet Explorer */
-  -o-column-span: all; /* Opera */
+  font-size: 2.500em;
+  margin-top: 0;
+  margin-bottom: 1.2em;
+}
+
+.internship h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.internship p {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.button {
+  font-weight: 100;
+  background: #07ce57;
+  padding: 0.5em 1em;
+  border-radius: 25px;
+}
+
+.internship .columns a.button:link {
+  color: #ffffff;
+}
+
+.internship .columns a.button:visited {
+  color: #ffffff;
+}
+
+.internship .columns a.button:hover {
+  color: #ffffff;
+}
+
+.button:hover {
+  background-color: #8dfa8a;
+}
+
+.study {
+  margin-bottom: 0;
+  margin-right: 0;
 }
 
 .study h2 {
-  padding-top: 12%;
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
+
+.study ul {
+  padding-left:0.83em;
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+}​
+
+.background h2 {
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
+}
+
+.background p {
+  margin-top: 0.5em;
+}
+
+.contact {
+  padding-left: 3%;
+}
+
+
+/* Media Queries*/
+
+/*Medium size*/
+
+@media screen and (max-width: 1105px) {
+
+  .grid_9 {
+    width: 100%;
+  }
+
+  .grid_3 {
+    width: 48%;
+  }
+
+  .study {
+    padding-left: 4%;
+    margin-right: 4%;
+  }
+
+  .study h2 {
+    margin-top: 0.83em;
+  }
+}
+
+/*Smaller Medium Size*/
+@media screen and (max-width: 708px) {
+ 
+  .header h1 a {
+    font-size: 2em;
+  }
+
+  .header h2 a {
+    font-size: 1.360em;
+  }
+
+  .internship h2 {
+    font-size: 2em;
+    margin-bottom: 0.950em;
+  }
+}
+
+/*Smaller Size*/
+
+@media screen and (max-width: 627px) {
+  .grid_3 {
+    width: 100%;
+  }
+
+  .study {
+    margin-right: 0;
+  }
+  
+  .background {
+    padding-left: 4%;
+  }
+}
+
+/* Small Size*/
+@media screen and (max-width: 561px) {
+  
+  .header h1 a {
+    font-size: 1.4em;
+  }
+
+  .header h2 a {
+    font-size: 0.940em;
+  }
+  .internship h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.8em;
+  }
+
+  .internship h3 {
+    font-size: 1em;
+  }
+
+  .study h2 {
+    font-size: 1em;
+  }
+
+  .background h2 {
+    font-size: 1em;
+  }
+
+}
+
+
+
 
 
 
