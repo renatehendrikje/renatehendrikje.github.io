@@ -274,11 +274,11 @@ a.readmore {
 /* Tiny Size*/
 @media screen and (max-width: 320px) {
   .header h1 a {
-    font-size: 0.900em;
+    font-size: 0.800em;
   }
 
   .header h2 a {
-    font-size: 0.600em;
+    font-size: 0.500em;
   }
 
   .internship h2 {
