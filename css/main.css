@@ -150,8 +150,11 @@ h3 {
 .study ul {
   padding-left:0.83em;
   margin-top: 0.5em;
-  margin-bottom: 0.3em;
 }​
+
+a.readmore {
+  margin-top: 0.3em;
+}
 
 .background h2 {
   margin-top: 0.3em;
@@ -268,7 +271,21 @@ h3 {
 
 }
 
+/* Tiny Size*/
+@media screen and (max-width: 320px) {
+  .header h1 a {
+    font-size: 1.2em;
+  }
 
+  .header h2 a {
+    font-size: 0.8em;
+  }
+
+  .internship h2 {
+    font-size: 1.2em;
+  }
+
+}
 
 
 
