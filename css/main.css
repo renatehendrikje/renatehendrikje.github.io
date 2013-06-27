@@ -273,6 +273,10 @@ a.readmore {
 
 /* Tiny Size*/
 @media screen and (max-width: 390px) {
+   .header h2 {
+    margin-top: 0.1em;
+  }
+
   .header h1 a {
     font-size: 1em;
   }
