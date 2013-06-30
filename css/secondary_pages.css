@@ -1,6 +1,6 @@
 .secondary {
 	border: 2px solid #444;
-	padding: 4%;
+	padding: 40px;
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
@@ -10,7 +10,7 @@
 .columns_secondary {
   columns: 225px 3;
   -webkit-columns: 225px 3;
-  -webkit-column-gap: 3em;
+  -webkit-column-gap: 40px;
   -moz-columns: 225px 3;
   -moz-column-gap: 3em;
 } 
