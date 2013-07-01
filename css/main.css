@@ -44,6 +44,7 @@ h2 {
   font-weight: 100;
   font-size: 1.500em;
   color: #8dc63f;
+
 }
 h3 {
   font-weight: 100;
@@ -51,78 +52,59 @@ h3 {
   color: #8dc63f;
 }
 
-.header h1 a {
+h1 a {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 2.100em;
   line-height: 100%;
+  padding: 40px 2% 40px 2%;
 }
 
-.header h1 a:visited {
+h1 a:visited {
   color: #8dc63f;
 }
 
-.header h2 a {
+h1 a span.tagline {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 0.4em;
   color: #334916;
   line-height: 100%;
 }
 
-.header h2 a:visited {
-  color: #334916;
-}
-
-/* text boxes and positioning*/
-
-.header {
-  margin-bottom: 40px;
-}
-
 .internship {
-  width: 100%;
+  width: 100%
 }
 
 .internship h2 {
-  color: #ffffff;
-  background-color: #334916;
-  font-size: 20px;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 2%;
+  padding: 40px 2% 40px 2%;
   border-radius: 25px 25px 0 0;
   -webkit-border-radius: 25px 25px 0 0;
   -moz-border-radius: 25px 25px 0 0;
-  border: 2px% solid #334916;
-  border-bottom: 0;
+  background-color: #334916;
+  color: #ffffff;
+  margin: 0;
 }
 
+.columns {
+  columns: 225px 3;
+  -webkit-columns: 225px 3;
+  -webkit-column-gap: 40px;
+  -moz-columns: 225px 3;
+  -moz-column-gap: 3em;
+} 
+
 .columns_internship {
-  columns: 225px 2;
-  column-gap: 2%;
-  -webkit-columns: 225px 2;
-  -webkit-column-gap: 2%;
-  -moz-columns: 225px 2;
-  -moz-column-gap: 2%;
-  background-color: #8dc63f;
-  padding: 2%;
+  padding: 40px 2% 40px 2%;
   border-radius: 0 0 25px 25px;
   -webkit-border-radius: 0 0 25px 25px;
   -moz-border-radius: 0 0 25px 25px;
-  border: 2px% solid #334916;
-  border-top: 0;
-} 
-
-.internship h3 {
-  margin-top: 0;
-  margin-bottom: 20px;
-  color: #334916;
+  background-color: #8dc63f;
+  color: #ffffff; 
 }
 
-.internship p {
-  margin-bottom: 30px;
-  color: #ffffff;
+.columns_internship h3 {
+  color: #334916;
 }
 
 .button {
@@ -131,173 +113,3 @@ h3 {
   padding: 5px 10px;
   border-radius: 25px;
 }
-
-.internship .columns_internship a.button:link {
-  color: #8dc63f;
-}
-
-.internship .columns_internship a.button:visited {
-  color: #8dc63f;
-}
-
-.internship .columns_internship a.button:hover {
-  color: #334916;
-}
-
-.study {
-  margin-top: 40px;
-}
-
-.study h2 {
-  margin-bottom: 20px;
-}
-
-.study ul {
-  padding-left:0.83em;
-}​
-
-a.readmore {
-  margin-top: 20px;
-}
-
-.background {
-   margin-top: 40px;
-}
-
-.background h2 {
-  margin-bottom: 20px;
-}
-
-.footer {
-   margin-top: 40px;
-}
-
-.footer h2 {
-  margin-bottom: 20px;
-}
-
-/* Media Queries*/
-
-/*Medium size*/
-
-@media screen and (max-width: 1105px) {
-
-  .grid_9 {
-    width: 100%;
-  }
-
-  .grid_3 {
-    width: 48%;
-  }
-
-  .study {
-    padding-left: 4%;
-    margin-right: 4%;
-  }
-
-  .study h2 {
-    margin-top: 0.83em;
-  }
-}
-
-/*Smaller Medium Size*/
-@media screen and (max-width: 708px) {
-  
-  .header {
-    margin-bottom: 3em;
-  }
-
-  .header h1 a {
-    font-size: 2em;
-  }
-
-  .header h2 a {
-    font-size: 1.360em;
-  }
-
-  .internship h2 {
-    font-size: 2em;
-    margin-bottom: 0.950em;
-  }
-}
-
-/*Smaller Size*/
-
-@media screen and (max-width: 627px) {
-  .grid_3 {
-    width: 100%;
-  }
-
-  .study {
-    margin-right: 0;
-  }
-
-  .background {
-    padding-left: 4%;
-  }
-}
-
-/* Small Size*/
-@media screen and (max-width: 561px) {
-  h1{
-    margin-bottom: 0;
-  }
-
-  .header h2 {
-    margin-top: 0.3em;
-  }
-
-   .header {
-    margin-bottom: 2em;
-  }
-
-  .header h1 a {
-    font-size: 1.4em;
-  }
-
-  .header h2 a {
-    font-size: 0.940em;
-  }
-  .internship h2 {
-    font-size: 1.5em;
-    margin-bottom: 0.8em;
-  }
-
-  .internship h3 {
-    font-size: 1em;
-  }
-
-  .study h2 {
-    font-size: 1em;
-  }
-
-  .background h2 {
-    font-size: 1em;
-  }
-
-}
-
-/* Tiny Size*/
-@media screen and (max-width: 390px) {
-   .header h2 {
-    margin-top: 0.1em;
-  }
-
-  .header h1 a {
-    font-size: 1em;
-  }
-
-  .header h2 a {
-    font-size: 0.700em;
-  }
-
-  .internship h2 {
-    font-size: 1.2em;
-  }
-
-}
-
-
-
-
-

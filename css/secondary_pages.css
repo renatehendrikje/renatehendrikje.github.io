@@ -1,10 +1,10 @@
 .secondary {
+  width: 100%;
 	border: 2px solid #444;
-	padding: 40px;
+	padding: 2%;
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
-
 }
 
 .columns_secondary {
@@ -52,16 +52,3 @@
     font-size: 1em;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
