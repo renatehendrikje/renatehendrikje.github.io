@@ -9,3 +9,16 @@
 .in_box.secondary h2 {
   padding-bottom: 0;
 }
+
+p.dialog {
+  font-size: 0.800em;
+}
+
+/* media queries*/
+
+/*small size*/
+@media screen and (max-width: 780px) {
+  .in_box.secondary h2 {
+    color: #8dc63f;
+  }
+}
