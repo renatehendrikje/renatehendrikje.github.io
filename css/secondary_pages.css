@@ -14,11 +14,39 @@ p.dialog {
   font-size: 0.800em;
 }
 
+.footer_secondary {
+  margin-top: 20px;
+}
+
+.sitting_frog_secondary img {
+  margin-left: 22%;
+  margin-top: 25px;
+}
+
 /* media queries*/
 
+/*smaller medium size*/
+
+@media screen and (max-width: 873px) {
+  .sitting_frog_secondary img {
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+}
+
 /*small size*/
+
 @media screen and (max-width: 780px) {
   .in_box.secondary h2 {
     color: #8dc63f;
+  }
+}
+
+/*tiniest size*/
+
+@media screen and (max-width: 350px) {
+
+  .sitting_frog_secondary img {
+    margin-left: 18%;
   }
 }

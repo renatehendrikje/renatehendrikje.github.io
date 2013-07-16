@@ -166,6 +166,16 @@ a.button:hover {
   padding-left:0.83em;
 }​
 
+img.sitting_frog {
+  margin-left: 22%;
+  margin-top: 12px;
+}
+
+img.sitting_frog {
+  margin-left: 22%;
+  margin-top: 12px;
+}
+
 /*media queries*/
 
 /*large size*/
@@ -233,6 +243,10 @@ a.button:hover {
 
   .footer {
     margin-bottom: 40px;
+  }
+
+  img.sitting_frog {
+    margin-left: 20px;
   }
 }
 
@@ -310,6 +324,10 @@ a.button:hover {
 
   .in_box h2 {
     font-size: 1.310em;
+  }
+
+  img.sitting_frog {
+    margin-left: 18%;
   }
 }
 
