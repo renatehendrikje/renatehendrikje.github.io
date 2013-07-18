@@ -140,6 +140,7 @@ h1 a span.tagline {
 
 .internship .button {
   background-color: #334916;
+  display: inline-block;
 }
 
 .navigation .button {
